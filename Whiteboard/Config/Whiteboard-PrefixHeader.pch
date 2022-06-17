@@ -1,0 +1,29 @@
+//
+//  Whiteboard-PrefixHeader.pch
+//  Whiteboard
+//
+//  Created by HZW on 2018/6/12.
+//  Copyright © 2018年 HZW. All rights reserved.
+//
+
+#ifndef Whiteboard_PrefixHeader_pch
+#define Whiteboard_PrefixHeader_pch
+
+#ifdef __OBJC__
+
+#import "UtilsMacro.h"
+#import "InterfaceMacro.h"
+#import "Masonry.h"
+#import "UIView+Geometry.h"
+#import "MJExtension.h"
+#import "NSString+Extension.h"
+#import "MBProgressHUD.h"
+#import "MBProgressHUD+PD.h"
+#import "UIColor+HEX.h"
+#import "UIColor+Commonly.h"
+#import "FMDatabase.h"
+#import "FMDatabaseQueue.h"
+
+#endif
+
+#endif /* Whiteboard_PrefixHeader_pch */
